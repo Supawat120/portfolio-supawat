@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก - ศุภวัฒน์ ยางธิสาร</title>
+    <style>
+        /* CSS เดิม */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #212529;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 { color: #007bff; margin-bottom: 5px; }
+        h2 { color: #343a40; border-bottom: 1px solid #dee2e6; padding-bottom: 5px; margin-top: 30px; }
+        section { margin-bottom: 25px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #6c757d; }
+
+        /* --- CSS ใหม่สำหรับ Navigation --- */
+        nav {
+            background-color: #343a40;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        nav a {
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #495057;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        /* 'active' class สำหรับไฮไลท์หน้าปัจจุบัน */
+        nav a.active {
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="active">หน้าแรก (Home)</a>
+        <a href="portfolio.html">ผลงาน (Portfolio)</a>
+        <a href="education.html">การศึกษา (Education)</a>
+        <a href="activities.html">กิจกรรม (Activities)</a>
+        <a href="contact.html">ติดต่อ (Contact)</a>
+    </nav>
+
+    <header>
+        <h1>นายศุภวัฒน์ ยางธิสาร</h1>
+        <p>67040249120</p>
+        <p>
+            <strong>คณะ:</strong> วิทยาศาสตร์
+            <strong>สาขา:</strong> วิทยาการคอมพิวเตอร์เเละเทคโนโลยีสารสนเทศ
+        </p>
+        <p>ความสนใจ:  Web Development, Data Science</p>
+    </header>
+
+    <main>
+        <section id="skills">
+            <h2> ทักษะ (Skills)</h2>
+            <ul>
+                <li><strong>Programming:</strong> [ Python, HTML/CSS, JavaScript ]</li>
+                <li><strong>Tools:</strong> [ เช่น Git, VS Code]</li>
+                <li><strong>Soft Skills:</strong> [ เช่น การสื่อสาร, การทำงานเป็นทีม, การแก้ปัญหา ]</li>
+            </ul>
+        </section>
+
+        <section id="career-interest">
+            <h2> เป้าหมายในอนาคต (Career Interest)</h2>
+            <p>[ "สนใจงานด้าน Full-Stack Development"  ]</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ศุภวัฒน์ ยางธิสาร</p>
+    </footer>
+
+</body>
+</html>
